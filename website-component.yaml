@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: component-web-test
-  description: Example added from the GitHub repom
+  description: Example added from the GitHub repo
 spec:
   type: website
   lifecycle: production
