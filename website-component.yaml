@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: terroir-tracking-web
-  description: Find where your juice comes from
+  name: component-web-test
+  description: Example added from the GitHub repom
 spec:
   type: website
   lifecycle: production
-  owner: tracking-team
+  owner: fernando.b.hernandez@accenture.com
