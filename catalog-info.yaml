@@ -1,11 +1,19 @@
----
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: component-web-test
-  description: Example added from the GitHub repo
+  name: component-web-test1
+  description: Example1 added from the GitHub repo
 spec:
   type: website
   lifecycle: production
   owner: fernando.b.hernandez@accenture.com
 ---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: component-web-test2
+  description: Example2 added from the GitHub repo
+spec:
+  type: website
+  lifecycle: development
+  owner: fernando.b.hernandez@accenture.com
