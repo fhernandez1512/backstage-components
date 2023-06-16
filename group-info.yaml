@@ -10,3 +10,4 @@ spec:
     email: tech-arch@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   members: [fernando]
+  children: []
