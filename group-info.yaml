@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: tech-arch
+  description: The Tech Architecture unit
+spec:
+  type: team
+  profile:
+    displayName: tech-arch
+    email: tech-arch@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  members: [fernando]
