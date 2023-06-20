@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: fernando
+  annotations:
+    backstage.io/techdocs-ref: value
 spec:
   profile:
     displayName: Fernando Hernández Rodríguez
@@ -13,6 +15,8 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: fernando.b.hernandez
+  annotations:
+    backstage.io/techdocs-ref: value
 spec:
   profile:
     displayName: Fernando Hernández Rodríguez
