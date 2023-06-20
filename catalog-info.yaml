@@ -26,14 +26,3 @@ spec:
   type: website
   lifecycle: development
   owner: fernando.b.hernandez@accenture.com
----
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: fernando.b.hernandez
-spec:
-  profile:
-    displayName: Fernando Hernández Rodríguez
-    email: fernando.b.hernandez@accenture.com
-    picture: https://example.com/staff/jenny-with-party-hat.jpeg
-  memberOf: [employees]
