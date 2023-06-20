@@ -12,6 +12,8 @@ kind: Component
 metadata:
   name: component-web-test1
   description: Example1 added from the GitHub repo
+  annotations:
+    backstage.io/techdocs-ref: value
 spec:
   type: website
   lifecycle: production
