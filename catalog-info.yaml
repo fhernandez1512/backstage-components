@@ -16,7 +16,7 @@ metadata:
     backstage.io/techdocs-ref: value
 spec:
   type: website
-  lifecycle: production
+  lifecycle: integration
   owner: fernando.b.hernandez@accenture.com
 ---
 apiVersion: backstage.io/v1alpha1
