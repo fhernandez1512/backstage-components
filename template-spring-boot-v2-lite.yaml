@@ -21,6 +21,13 @@ spec:
   parameters:
   - title: Package Name
     description: Name for the java package. eg (io.backstage.blah)
-    type: string
-    required: true
-
+    required: 
+    - name
+    properties:
+      name: 
+        title: Package Name
+        type: string 
+        description: Unique Package Name
+        ui:autofocus: true
+        ui:options:
+          rows: 5
