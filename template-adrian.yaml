@@ -7,6 +7,7 @@ metadata:
   icon: https://example.com/real-spring-boot-icon.png
 spec:
   owner: adrian.perez.gomez@accenture.com
+  type: service
   parameters:
     - name: projectName
       description: The name of the Spring Boot application project
