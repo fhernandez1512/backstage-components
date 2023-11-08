@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1
-kind: ScaffolderTemplate
+kind: Template
 metadata:
   name: spring-boot
   title: Spring Boot Application Template
