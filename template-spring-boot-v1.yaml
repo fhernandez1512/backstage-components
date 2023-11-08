@@ -1,0 +1,42 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: spring-boot
+  title: Spring Boot Application Template
+  description: This template generates a Spring Boot application.
+  icon: https://example.com/real-spring-boot-icon.png
+spec:
+  owner: fernando.b.hernandez@accenture.com
+  type: service
+  parameters:
+    - name: projectName
+      description: The name of the Spring Boot application project
+      type: string
+  steps:
+    - id: createProject
+      name: Create Spring Boot Project
+      description: Create a new Spring Boot project
+      action:
+        bash:
+          code: |
+            # Create a Spring Boot project
+            curl -s https://start.spring.io/starter.zip -o {{projectName}}.zip
+            unzip {{projectName}}.zip -d {{projectName}}
+            cd {{projectName}}
+            # Customize the project as needed
+    - id: initializeGit
+      name: Initialize Git
+      description: Initialize a Git repository
+      action:
+        git:
+          initialize: {}
+    - id: installDependencies
+      name: Install Dependencies
+      description: Install project dependencies
+      action:
+        bash:
+          code: |
+            # Install project dependencies
+            cd {{projectName}}
+            ./mvnw clean install
+
