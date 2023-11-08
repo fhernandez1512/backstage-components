@@ -5,7 +5,7 @@ metadata:
   title: Spring Boot App
   description: Create a Spring Boot application with basic configuration
 spec:
-  owner: fernando.b.hernandez
+  owner: atc
   type: service
   steps:
   - id: fetch-starter
