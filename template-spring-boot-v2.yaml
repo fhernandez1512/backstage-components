@@ -1,8 +1,8 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: springboot-app-template
-  title: Spring Boot App
+  name: springboot-app-template-v1
+  title: Spring Boot App v1
   description: Create a Spring Boot application with basic configuration
 spec:
   owner: atc
