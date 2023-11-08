@@ -9,7 +9,7 @@ spec:
   type: service
   steps:
   - id: fetch-starter
-    name: Fetch Skeleton + Template
+    name: Fetch Skeleton Template
     action: fetch:template
     input:
       #url: https://github.com/spring-projects/spring-boot/tree/master/spring-boot-starter-project
