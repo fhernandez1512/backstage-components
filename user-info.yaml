@@ -14,7 +14,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: fernando.b.hernandez@accenture.com
+  name: fernando.b.hernandez
   annotations:
     backstage.io/techdocs-ref: value
 spec:
