@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3 
 kind: Template
 metadata:
-  name: springboot-app-template-lite
+  name: springboot-app-template-v3-lite
   title: Spring Boot App v3 lite
   description: Create a Spring Boot application with basic configuration
 spec:
