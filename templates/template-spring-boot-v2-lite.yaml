@@ -1,0 +1,33 @@
+apiVersion: scaffolder.backstage.io/v1beta3 
+kind: Template
+metadata:
+  name: springboot-app-template-lite
+  title: Spring Boot App v2 lite
+  description: Create a Spring Boot application with basic configuration
+spec:
+  owner: atc
+  type: service
+  steps:
+  - id: fetch-starter
+    name: Fetch Skeleton Template
+    action: fetch:template
+    input:
+      #url: https://github.com/spring-projects/spring-boot/tree/master/spring-boot-starter-project
+      url: https://github.com/spring-projects/spring-boot/tree/main/spring-boot-project/spring-boot-starters/spring-boot-starter-parent
+      values:
+        groupId: spring-boot
+        artifactId: spring-boot-starter-parent
+        version: 2.7.0
+  parameters:
+  - title: Package Name
+    description: Name for the java package. eg (io.backstage.blah)
+    required: 
+    - name
+    properties:
+      name: 
+        title: Package Name
+        type: string 
+        description: Unique Package Name
+        ui:autofocus: true
+        ui:options:
+          rows: 5
