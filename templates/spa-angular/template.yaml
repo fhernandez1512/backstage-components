@@ -8,7 +8,7 @@ metadata:
     - angular
     - cli
 spec:
-  owner: fernando.b.hernandez@accenture.com
+  owner: user:default/fernando.b.hernandez
   type: website
   parameters:
     - title: Provide some simple information
